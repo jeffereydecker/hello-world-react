@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './gritty_3.jpg';
 import './App.css';
+import EchoName from './EchoName.js';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hello world!
+            <EchoName name="Jeff" />
           </p>
           <a
             className="App-link"
